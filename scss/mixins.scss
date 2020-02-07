@@ -12,3 +12,20 @@
        clear: both;
     }
 }
+
+@mixin border-radius($radius ) {
+    border-radius:$radius ;
+   
+}
+@mixin title($weight) {
+   font-weight:$weight;
+   font-size: 24px;
+   color: #2e2e2e;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
