@@ -111,6 +111,19 @@ a {
   border-radius: 50px;
   width: 100%;
   outline: none;
+  color: #ffffff;
+}
+.serch__input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.serch__input:-moz-placeholder {
+  color: #ffffff;
+}
+.serch__input::-moz-placeholder {
+  color: #ffffff;
+}
+.serch__input:-ms-input-placeholder {
+  color: #ffffff;
 }
 
 .search__sabmit {

@@ -23,7 +23,22 @@
    color: #2e2e2e;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@mixin placecolor($color:#000000) {
+   &::-webkit-input-placeholder{
+      color:$color ;
+   }
 
+   &:-moz-placeholder{
+      color:$color ;
+   }
+   &::-moz-placeholder{
+      color:$color ;
+   }
+      &:-ms-input-placeholder{
+         color:$color ;
+      }
+   
+}
 
 
 

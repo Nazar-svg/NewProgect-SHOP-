@@ -96,6 +96,24 @@ display: inline-block;
     @include border-radius(50px);
     width: 100%;
     outline: none;
+    color: #ffffff;
+
+
+    &::-webkit-input-placeholder{
+        color:#ffffff ;
+     }
+  
+     &:-moz-placeholder{
+        color:#ffffff ;
+     }
+     &::-moz-placeholder{
+        color: #ffffff;
+     }
+        &:-ms-input-placeholder{
+           color:#ffffff ;
+        }
+     
+
 }
 .search__sabmit{
     background: url(../img/lupa.png) 0 0 no-repeat;
